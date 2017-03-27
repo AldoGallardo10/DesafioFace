@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.desafiolatam.desafioface.R;
-import com.desafiolatam.desafioface.views.LoginActivity;
+import com.desafiolatam.desafioface.views.login.LoginActivity;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
