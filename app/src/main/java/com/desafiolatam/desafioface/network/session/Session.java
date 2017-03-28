@@ -1,4 +1,4 @@
-package com.desafiolatam.desafioface.network;
+package com.desafiolatam.desafioface.network.session;
 
 import com.desafiolatam.desafioface.models.CurrentUser;
 

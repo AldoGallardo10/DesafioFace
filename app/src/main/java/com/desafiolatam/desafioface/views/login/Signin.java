@@ -1,11 +1,8 @@
 package com.desafiolatam.desafioface.views.login;
 
-import android.util.Log;
-import android.widget.Toast;
-
 import com.desafiolatam.desafioface.models.CurrentUser;
-import com.desafiolatam.desafioface.network.LoginInterceptor;
-import com.desafiolatam.desafioface.network.Session;
+import com.desafiolatam.desafioface.network.session.LoginInterceptor;
+import com.desafiolatam.desafioface.network.session.Session;
 
 import retrofit2.Call;
 import retrofit2.Callback;

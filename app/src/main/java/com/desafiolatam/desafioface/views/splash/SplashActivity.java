@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.desafiolatam.desafioface.R;
+import com.desafiolatam.desafioface.background.RecentUsersService;
 import com.desafiolatam.desafioface.views.login.LoginActivity;
 
 /**
@@ -38,7 +39,7 @@ public class SplashActivity extends AppCompatActivity  implements LoginCallback{
 
     @Override
     public void signed() {
-
+        RecentUsersService.startActionRecentUseres(this);
     }
 
     @Override
